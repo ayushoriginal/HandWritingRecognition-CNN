@@ -1,9 +1,16 @@
-# Digit Recognizer
-This is an implementation of a convolutional neural network for recognizing hand written digits using the MNIST dataset. This model attains a validation accuracy of about 99.2% is obtained after training for 12 epochs. The model architecture and weights are saved in the files `model_architecture.json` and `model_weights.h5`. Note that these weights are compatible only with the Tensorflow backed.
+# Hand Writing Recognition Using Convolutional Neural Networks
+![0](http://i.imgur.com/R8JlWvd.png)
 
-To train the model run `train.py`. The file `test.py` generates a file `predictions.csv` which contains the predicted labels to the images in the test set. This file can be used for submission at Kaggle. `display_random.py` displays 25 random images from the test set along with their predicted labels. Here is an example:
+## Introduction
+This CNN-based model for recognition of hand written digits attains a validation accuracy of 99.2% after training for 12 epochs. Its trained on the MNIST dataset on Kaggle.
 
-<img src="https://github.com/Shobhit117/digit-recognizer/blob/master/figure_1.png" height=300px width=400px>
+![1](http://i.imgur.com/4o8MTiT.png)
+##Usage
+The model architecture and weights are saved in the files `model_architecture.json` and `model_weights.h5`. Note that these weights are compatible only with the Tensorflow backed.
+
+To train the model run `train.py`. The file `test.py` generates a file `predictions.csv` which contains the predicted labels to the images in the test set. This file can be used for submission at Kaggle. `display_random.py` displays 25 random images from the test set along with their predicted labels.
+
+![2](http://i.imgur.com/kzBAJEa.png)
 
 ## Requirements
 
